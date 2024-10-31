@@ -1,0 +1,302 @@
+
+**** Build of configuration Debug for project Asm_Blinky ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/GIT/MSP430FR2355 - Embedded Systems Design" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 1 Assembly Warning
+"../main.asm", WARNING! at line 40: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp		main					; repeate main loop forever
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Blinky.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Blinky.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1271/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1271/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Blinky_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Blinky.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+warning #10366-D: automatic library build: using library "C:\ti\ccs1271\ccs\tools\compiler\ti-cgt-msp430_21.6.1.LTS\lib\rts430x_sc_sd_eabi.lib" for the first time, so it must be built.  This may take a few minutes.
+Creating library c:/users/georg/appdata/local/temp/ti_mkl~1/rts430x_sc_sd_eabi.lib
+Finished building target: "Asm_Blinky.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Blinky ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'Asm_Blinky.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Blinky ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'Asm_Blinky.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Blinky ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'Asm_Blinky.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode1_Register ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/Asm_AddrMode1_Register" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 1 Assembly Warning
+"../main.asm", WARNING! at line 32: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp main
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_AddrMode1_Register.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_AddrMode1_Register.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1271/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1271/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_AddrMode1_Register_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_AddrMode1_Register.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_AddrMode1_Register.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode1_Register ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/Asm_AddrMode1_Register" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 1 Assembly Warning
+"../main.asm", WARNING! at line 36: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp main
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_AddrMode1_Register.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_AddrMode1_Register.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1271/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1271/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_AddrMode1_Register_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_AddrMode1_Register.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_AddrMode1_Register.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode1_Register ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/Asm_AddrMode1_Register" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 1 Assembly Warning
+"../main.asm", WARNING! at line 44: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp main
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_AddrMode1_Register.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_AddrMode1_Register.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1271/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1271/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_AddrMode1_Register_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_AddrMode1_Register.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_AddrMode1_Register.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode2_Immediate ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/Asm_AddrMode2_Immediate" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 1 Assembly Warning
+"../main.asm", WARNING! at line 37: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp 	main
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_AddrMode2_Immediate.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_AddrMode2_Immediate.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1271/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1271/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_AddrMode2_Immediate_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_AddrMode2_Immediate.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_AddrMode2_Immediate.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode2_Immediate ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/Asm_AddrMode2_Immediate" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+3 Assembly Errors, 1 Assembly Warning
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at line 37: [E0200] Binary operator can't be applied
+				jmp 	main/
+ 
+"../main.asm", ERROR!   at line 37: [E0200] Bad term in expression
+				jmp 	main/
+ 
+"../main.asm", ERROR!   at line 37: [E0001] Illegal symbol
+				jmp 	main/
+ 
+"../main.asm", WARNING! at line 37: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp 	main/
+ 
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode2_Immediate ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/Asm_AddrMode2_Immediate" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 1 Assembly Warning
+"../main.asm", WARNING! at line 37: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp 	main
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_AddrMode2_Immediate.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_AddrMode2_Immediate.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1271/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1271/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_AddrMode2_Immediate_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_AddrMode2_Immediate.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_AddrMode2_Immediate.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project sp ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/sp" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "sp.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"sp.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1271/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1271/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="sp_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "sp.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+warning #10420-D: For FRAM devices, at start up, the GPIO power-on default high-impedance mode needs to be disabled to activate previously configured port settings. This can be done by clearing the LOCKLPM5 bit in PM5CTL0 register.
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10422-D: (ULP 6.2) Detected use of a device with available 32-bit hardware multiplier and not also using MSPMATHLIB library (libmath.a).  Recommend using MSPMATHLIB library (libmath.a) for improved performance.
+Finished building target: "sp.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode2_Immediate ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'Asm_AddrMode2_Immediate.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode3_Absolute ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/Asm_AddrMode3_Absolute" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 1 Assembly Warning
+"../main.asm", WARNING! at line 32: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp		main
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_AddrMode3_Absolute.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_AddrMode3_Absolute.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1271/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1271/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_AddrMode3_Absolute_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_AddrMode3_Absolute.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_AddrMode3_Absolute.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode3_Absolute ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'Asm_AddrMode3_Absolute.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode3_Absolute ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/Asm_AddrMode3_Absolute" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+1 Assembly Error, 1 Assembly Warning
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at line 28: [E0002] Illegal mnemonic specified
+				:mov.w	R4, &2004h
+ 
+"../main.asm", WARNING! at line 32: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp		main
+ 
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_AddrMode3_Absolute ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="C:/Users/georg/workspace_v12/Asm_AddrMode3_Absolute" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 1 Assembly Warning
+"../main.asm", WARNING! at line 33: [W5369] Silicon Errata CPU40: A jump instruction at the end of a section should be followed by a NOP.
+				jmp		main
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_AddrMode3_Absolute.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_AddrMode3_Absolute.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1271/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1271/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_AddrMode3_Absolute_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_AddrMode3_Absolute.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_AddrMode3_Absolute.out"
+ 
+
+**** Build Finished ****
