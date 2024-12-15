@@ -1,8 +1,0 @@
-
-**** Build of configuration Debug for project Asm_AddrMode2_Immediate ****
-
-"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
- 
-gmake[1]: 'Asm_AddrMode2_Immediate.out' is up to date.
-
-**** Build Finished ****
